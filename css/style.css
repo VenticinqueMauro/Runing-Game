@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* index */
+
+.principal{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerTitulo{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTitulo img{
+    width: 150px;
+    margin-bottom: 75px;
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffff00;
+    text-shadow: 0px 0px 10px rgb(69, 69, 69);
+}
+
+.descrip{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 75px;
+}
+
+.descrip img{
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.descrip p{
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0px 0px 10px #000;
+}
+
+span{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffff00;
+}
+
+/* Nivel 1 */
+
+.containern1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/nivel1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: -70px;
+}
+
+.stickman{
+    width: 150px;
+    margin-top: 410%;
+}
+
+body h4{
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffff00;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+
+/* Nivel 2 */
+
+.containern2{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/nivel2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.stickman2{
+    width: 150px;
+    margin-top: 350%;
+}
+
+/* Nivel 3 */
+
+.containern3{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/nivel3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.stickman3{
+    width: 150px;
+    margin-top: 350%;
+}
+
+/* Nivel 4 */
+
+.containern4{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/nivel4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.stickman4{
+    width: 150px;
+    margin-top: 350%;
+}
+
+/* Nivel 5 */
+
+.containern5{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/nivel5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.stickman5{
+    width: 150px;
+    margin-top: 350%;
+}
+
+/* Nivel 6 */
+
+.containern6{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/nivel6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.stickman6{
+    width: 150px;
+    margin-top: 350%;
+}
+
+/* Nivel 7 */
+
+.containern7{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/nivel7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.stickman7{
+    width: 150px;
+    margin-top: 350%;
+}
+
+/* Nivel 8 */
+
+.containern8{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/nivel8.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.stickman8{
+    width: 150px;
+    margin-top: 350%;
+}
+
+/* Finish */
+
+.finish{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+    text-align: center;
+}
+
+.finish p{
+    margin-top: 200px;
+}
+
+.finish h3{
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+.stickmanF{
+    margin-top: 100px;
+}
